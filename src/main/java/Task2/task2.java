@@ -19,13 +19,12 @@ public class task2 {
         } else if (price < 0) {
             System.out.println("Error: Price cannot be negative.");
         } else {
-            // Room er area ba khetrofol ber kora
+       
             int area = length * width;
 
             // 5% extra tiles er hisab kora (Area er sathe 1.05 gun korle 5% add hoye jay)
             double totalTilesNeeded = area * 1.05;
 
-            // Total cost ber kora
             double totalCost = totalTilesNeeded * price;
 
             System.out.printf("Total amount of money required: %.2f%n", totalCost);
