@@ -1,8 +1,8 @@
-package task3;
+package Task3;
 
 import java.util.Scanner;
 
-public class Task3 {
+public class task3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
